@@ -74,5 +74,12 @@ cat /etc/salt/minion.d/master.conf
 ```
 - **Explanation**: Displays the content of the minion configuration file to verify the master is set to `localhost`.
 
+### Step 9: Start both Salt Master and Minion
+```bash
+salt-master -d
+salt-minion -d
+```
+
+- **Explanation**: This should start salt master and minion deamon services.
 
 
