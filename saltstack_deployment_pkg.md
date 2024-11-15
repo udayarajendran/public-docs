@@ -1,5 +1,3 @@
-Here is the updated guide with additional steps for configuring **firewalld** and **SELinux** for SaltStack:
-
 ---
 
 # **SaltStack Installation and Configuration**
