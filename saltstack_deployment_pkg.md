@@ -14,8 +14,9 @@ dnf update -y
 
 ---
 
-### **Step 2: Install SaltStack**
+### **Step 2: Install Epel and SaltStack**
 ```bash
+dnf install epel-release -y
 dnf install salt-master salt-minion -y
 ```
 - **Explanation**: Installs the Salt master and minion software using `dnf`. Adjust for your package manager (e.g., `apt`, `yum`).
